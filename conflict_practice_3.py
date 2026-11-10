@@ -1,4 +1,5 @@
 import random
+from re import A
 import time
 
 ROSTER = [
@@ -9,9 +10,12 @@ ROSTER = [
     {"name": "mosa", "hp": 105, "attack": (8, 18), "phrase": "Merge conflict? No problem!"},
     {"name": "Eran the Resolver", "hp": 105, "attack": (7, 18), "phrase": "Conflict? Already merged."},
     {"name": "Chubby the hub", "hp": 200, "attack": (50, 100), "phrase": "You are all gonna die tonight."}
+    {"name": "Idan the Unmergeable", "hp": 130, "attack": (15, 28), "phrase": "git push --force to victory!"},
     # --- ADD HERE ---
 ]
 
+
+A
 # =====================================================================
 
 def battle(fighter1, fighter2):
